@@ -47,11 +47,11 @@
 - `mysql -u root -p`
 - `ALTER USER ‘root’@‘localhost’ IDENTIFIED WITH mysql_native_password BY 'password';`
 
-### 创建两个数据库
+### 创建两个数据库 
 - `CREATE DATABASE webasenodemanager;`
 - `CREATE DATABASE webasesign;`
 
-### 授权
+### 授权 （跳过）
 - `GRANT ALL PRIVILEGES ON webasenodemanager.* TO 'webasenodemanager'@'localhost';`
 - `GRANT ALL PRIVILEGES ON webasesign.* TO 'webasesign'@'localhost';`
 
