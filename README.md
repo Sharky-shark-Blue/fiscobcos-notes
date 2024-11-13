@@ -74,8 +74,10 @@
 3. **查询进程**：
    - `python3 deploy.py check`
 
-4. **使用浏览器访问管理平台**：
-   - 输入 `localhost:5000`
+4. **重启进程**：
+   - `python3 depoly.py stopAll && start depoly startAll`
+5. **使用浏览器访问管理平台**：
+   - 输入 `localhos5t:5000`
 
 ---
 
