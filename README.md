@@ -94,7 +94,7 @@
 4. **编辑新节点配置文件**：
    - `vim node4/config.ini`
    
-   ![Node4 Config](image.png)
+   ![Node4 Config](image/node4.png)
 
 5. **启动新节点**：
    - `bash node4/start.sh`
