@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# 启动 MySQL
+sudo service mysql start
+
+# 进入 fisco 目录并执行命令
+cd /home/shark/fisco/
+sudo bash nodes/127.0.0.1/stop_all.sh
+sudo bash nodes/127.0.0.1/start_all.sh
+
+# 启动 WeBASE
+cd /home/shark/fisco/webase-deploy/
+sudo python3 deploy.py stopAll
+sudo python3 deploy.py startAll
+
