@@ -1,4 +1,4 @@
-# 基于 Ubuntu 18.04 的 Docker 部署 FISCO BCOS
+# 在 Ubuntu 18.04 环境下使用 Docker 部署 FISCO BCOS
 
 ## 完成系统搭建配置与启动
 
